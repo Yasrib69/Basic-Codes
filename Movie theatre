@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class Program {
+   
+    public static void main(String[] args) {
+        int[][] seats = {
+        {0, 0, 0, 1, 1, 1, 0, 0, 1, 1},
+        {1, 1, 0, 1, 0, 1, 1, 0, 0, 0},
+        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+        {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+        {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
+        };
+        Scanner sc = new Scanner(System.in);
+        int row = sc.nextInt();
+        int coloumn = sc.nextInt();
+
+
+        if (seats[row][coloumn]==0){
+            System.out.println("Free");
+        } else {
+            System.out.println("Sold");
+        }
+        sc.close();
+
+
+    }
+
+
+}
