@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class Program {
+    static void convert(double x){
+        double inches = x*12.0;
+        System.out.print(inches);
+    }
+   
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double num = sc.nextDouble();
+
+
+        convert(num);
+    }
+}
