@@ -1,0 +1,18 @@
+public class Main {
+   public static void main(String[] args) {
+       Loading loading = new Loading();
+       //create a Loading object with the same name
+       
+       
+       loading.LoadingMessage();
+   }
+}
+
+
+class Loading {
+    public void LoadingMessage(){
+        System.out.println("Loading");
+    }
+     //complete the class, add LoadingMessage() method
+     
+}
